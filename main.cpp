@@ -1,4 +1,4 @@
-#include "person.h"
+#include "Student.h"
 
 int main()
 {
@@ -17,9 +17,12 @@ int main()
 	my_person[2].SetInfo("majunglack");
 	my_person[2].PrintInfo();
 
-
-	
+	Student my_student{};
+	my_student.SetInfo("hadoyun", 29);
+	my_student.SetSchoolInfo("PUFS", 5, 1);
+	my_student.PrintInfo();
 
 	system("pause");
+
 	return 0;
 }

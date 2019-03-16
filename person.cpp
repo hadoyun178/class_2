@@ -1,4 +1,4 @@
-#include "person.h"
+#include "Person.h"
 
 void Person::SetInfo(std::string name, int age, float weight, float height)
 {
